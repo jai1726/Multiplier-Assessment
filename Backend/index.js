@@ -23,7 +23,6 @@ mongoose.connect('"mongodb+srv://jagadeeshdende:nXtqmtE5l9M9s8s9@cluster0.tzk6i.
 
 
 
-
 app.get('/todos', async (req, res) => {
     try {
         const todos = await Todo.find();
