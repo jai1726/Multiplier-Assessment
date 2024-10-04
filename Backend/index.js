@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-mongoose.connect('MongoDb Link', {
+mongoose.connect('"mongodb+srv://jagadeeshdende:nXtqmtE5l9M9s8s9@cluster0.tzk6i.mongodb.net/Connectify?retryWrites=true&w=majority&appName=Cluster0"', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
