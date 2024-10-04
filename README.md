@@ -9,6 +9,9 @@
 ### Technolgies Used
 ###### React
 ###### Tailwind CSS
+###### NodeJs
+###### Express
+###### MongoDb
 
 ## Installation and Setup
 ## Frontend
